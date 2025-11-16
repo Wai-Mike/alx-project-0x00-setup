@@ -1,4 +1,4 @@
-import { UserProps } from "@/alx-project-0x01/interfaces";
+import { UserProps } from "@/interfaces";
 
 const UserCard: React.FC<{ user: UserProps }> = ({ user }) => {
   return (

@@ -1,5 +1,5 @@
 import Header from "@/alx-project-0x01/components/layout/Header";
-import { UserProps } from "@/alx-project-0x01/interfaces";
+import { UserProps } from "@/interfaces";
 import UserCard from "@/alx-project-0x01/components/common/UserCard";
 
 const Users: React.FC<UserProps[]> = ({ posts }) => {

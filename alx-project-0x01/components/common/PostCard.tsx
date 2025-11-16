@@ -1,4 +1,4 @@
-import { PostProps } from "@/alx-project-0x01/interfaces";
+import { PostProps } from "@/interfaces";
 
 const PostCard: React.FC<PostProps> = ({ title, body, userId, id }) => {
   return (
