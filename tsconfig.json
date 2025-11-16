@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/components/*": ["alx-project-0x00/components/*"],
+      "@/interfaces": ["alx-project-0x00/interfaces/index"],
+      "@/public/*": ["public/*"]
     }
   },
   "include": [
