@@ -10,6 +10,7 @@ const Landing: React.FC = () => {
         <Button title="Small" styles="px-3 py-1 text-sm rounded-sm border" />
         <Button title="Medium" styles="px-4 py-2 text-base rounded-md border" />
         <Button title="Large" styles="px-5 py-3 text-lg rounded-full border" />
+        <Button title="Large LG" styles="px-5 py-3 text-lg rounded-lg border" />
       </div>
       <div className="mt-6 grid gap-6 sm:grid-cols-1 md:grid-cols-2">
         <Card />
