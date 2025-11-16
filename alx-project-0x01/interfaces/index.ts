@@ -56,4 +56,6 @@ export interface UserModalProps {
   onSubmit: (user: UserData) => void;
 }
 
+// Interfaces for Posts and Users used across the application.
+
 
