@@ -1,4 +1,4 @@
-import { UserData, UserModalProps } from "@/alx-project-0x01/interfaces";
+import { UserData, UserModalProps } from "@/interfaces";
 import React, { useState } from "react";
 
 const UserModal: React.FC<UserModalProps> = ({ onClose, onSubmit }) => {

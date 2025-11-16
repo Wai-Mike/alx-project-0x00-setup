@@ -1,7 +1,7 @@
 import PostCard from "@/alx-project-0x01/components/common/PostCard";
 import PostModal from "@/alx-project-0x01/components/common/PostModal";
 import Header from "@/alx-project-0x01/components/layout/Header";
-import { PostData, PostProps } from "@/alx-project-0x01/interfaces";
+import { PostData, PostProps } from "@/interfaces";
 import { useState } from "react";
 
 const Posts: React.FC<PostProps[]> = ({ posts }) => {

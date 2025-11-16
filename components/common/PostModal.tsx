@@ -1,4 +1,4 @@
-import { PostData, PostModalProps } from "@/alx-project-0x01/interfaces";
+import { PostData, PostModalProps } from "@/interfaces";
 import React, { useState } from "react";
 
 const PostModal: React.FC<PostModalProps> = ({ onClose, onSubmit }) => {
